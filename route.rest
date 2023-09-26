@@ -1,0 +1,29 @@
+###
+GET http://localhost/api_back/getuserlist/
+
+###
+POST http://localhost/api_back/
+
+{
+  "pseudo": "diokel" ,
+  "password":"passer",
+  "action":"login"
+}
+###
+POST http://localhost/api_back/
+
+{
+  "pseudo": "TEST" ,
+  "password":"passer",
+  "firstname" :"rahim",
+  "lastname":"dosso",
+  "action":"register"
+}
+###
+POST http://localhost/api_back/
+
+{
+  "expediteur": "1" ,
+  "receiver":"1",
+  "action":"send message"
+}
